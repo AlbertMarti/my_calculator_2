@@ -12,6 +12,12 @@
 
   
 
+    function inverse(pot) {
+    var num = document.getElementById("n1");
+    num.value = 1/num.value;
+    }
+
+
     </script>
     </head>
     <body>
@@ -22,7 +28,7 @@
   
   
     <button onclick="sin()"> seno </button>
-    
+    <button onclick="inverse();"> 1/x </button>
     <button onclick="mPow(2)"> x^2 </button>
     <button onclick="mPow(3)"> x^3 </button>    
     <button onclick="mPow(4)"> x^4 </button>
